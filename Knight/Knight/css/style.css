@@ -7,7 +7,7 @@
 
 /* CSS Document */
 
-/* Float Elements 
+/* Float Elements
 ---------------------------------*/
 .fl-lt {float:left;}
 .fl-rt {float:right;}
@@ -54,16 +54,16 @@ a, a:hover, a:active{ outline:0px !important}
 /* Primary Styles
 ---------------------------------*/
 body {
-	background:#fff;
+	background:#101010;
 	font-family: 'Open Sans', sans-serif;
 	font-size:14px;
 	font-weight:normal;
-	color:#888888;
+	color:#c7af8b;
 	margin:0;
 }
 h2{
 	font-size:34px;
-	color:#222222;
+	color:#c7af8b;
 	font-family: 'Montserrat', sans-serif;
 	font-weight:700;
 	letter-spacing: -1px;
@@ -73,7 +73,7 @@ h2{
 }
 h3{
 	font-family: 'Montserrat', sans-serif;
-	color:#222222;
+	color:#bcbcbc;
 	font-size:16px;
 	margin:0 0 5px 0;
 	text-transform:uppercase;
@@ -81,7 +81,7 @@ h3{
 }
 h6{
 	font-size:16px;
-	color:#888888;
+	color:#afafaf;
 	font-family: 'Open Sans', sans-serif;
 	font-weight:400;
 	text-align:center;
@@ -110,7 +110,7 @@ p{
 	font-weight:400;
 	letter-spacing: -1px;
 	margin:0 0 22px 0 ;
-	color:#fff;
+	color:#c7af8b;
 }
 
 .we-create{
@@ -139,13 +139,13 @@ p{
 }
 
 .start-button li a{
-color: #fff;
+color: #c7af8b;
 }
 
 
 .link{
 	padding:15px 35px;
-	background:#7cc576;
+	background:#c79a56;
 	color:#fff !important;
 	font-size:16px;
 	font-weight:400;
@@ -161,7 +161,7 @@ color: #fff;
 }
 .link:hover {
 	text-decoration:none;
-	color:#7cc576 !important;
+	color:#c79a56 !important;
 	background:#fff;
 }
 
@@ -203,12 +203,12 @@ color: #fff;
 	-webkit-transition:all 0.3s ease-in-out;
 }
 
-.main-nav li a:hover{ 
+.main-nav li a:hover{
 	text-decoration:none;
-	color: #7cc576;
+	color: #c79a56;
 }
 
-.small-logo{ 
+.small-logo{
 	padding:0 32px;
 }
 
@@ -233,12 +233,12 @@ color: #fff;
 	font-style:normal;
 	font-size:38px;
 	display:block;
-	color:#222;
+	color:#c79a56;
 	font-family: 'FontAwesome';
 	line-height:38px;
 }
 .service-list-col2{
-	overflow:hidden;	
+	overflow:hidden;
 }
 .main-section.alabaster{
 	background:#fafafa;
@@ -275,7 +275,7 @@ color: #fff;
 	line-height:38px;
 	font-family: 'FontAwesome';
 	font-size:38px;
-	color:#777777;
+	color:#222222;
 	font-style:normal;
 }
 .featured-box-col2{ overflow:hidden;}
@@ -302,11 +302,11 @@ color: #fff;
 	-webkit-transition:all 0.3s ease-in-out;
 	display: none;
 }
-.Learn-More i{ 
+.Learn-More i{
 	padding-right:15px;
 }
 
-.Learn-More:hover, .Learn-More:focus{ 
+.Learn-More:hover, .Learn-More:focus{
 	text-decoration:none;
 	color: #111;
 }
@@ -329,7 +329,7 @@ color: #fff;
 	padding:10px 22px;
 	font-size:12px;
 	line-height:20px;
-	color:#222222;
+	color:#4c4c4c;
 	border-radius:4px;
 	text-transform:uppercase;
 	font-family: 'Montserrat', sans-serif;
@@ -340,7 +340,7 @@ color: #fff;
 	-webkit-transition:all 0.3s ease-in-out;
 }
 .Portfolio-nav li a:hover{
-	background:#7cc576;
+	background:#c79a56;
 	color:#fff;
 	text-decoration:none;
 }
@@ -363,7 +363,7 @@ color: #fff;
 	margin-bottom:25px;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
-	-webkit-transition:all 0.3s ease-in-out;	
+	-webkit-transition:all 0.3s ease-in-out;
 }
 
 .Portfolio-box img:hover {
@@ -371,7 +371,7 @@ color: #fff;
 }
 
 .Portfolio-nav li a.current{
-	background:#7cc576;
+	background:#c79a56;
 	color:#fff;
 	text-decoration:none;
 }
@@ -464,7 +464,7 @@ border: 2px solid #fff;
 }
 
 .c-logo-part{
-	background:#7cc576;
+	background:#c79a56;
 	padding:25px 0;
     filter: alpha(opacity=60);
 }
@@ -516,7 +516,7 @@ border: 2px solid #fff;
 	border-radius:50%;
 	box-shadow:0px 0px 0px 7px rgba(241,241,241,0.80);
 	margin:7px 7px 25px 7px;
-	
+
 }
 .team-leader-shadow{
 	transition:all 0.3s ease-in-out;
@@ -567,7 +567,7 @@ border: 2px solid #fff;
 	font-family: 'FontAwesome';
 	display:inline-block;
 	font-size:28px;
-	color:#fff;	
+	color:#fff;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;
@@ -706,7 +706,7 @@ border: 2px solid #fff;
 	border: 1px solid #7cc576;
 	outline:0;
 	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(124, 197, 118, 0.3);
-	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(124, 197, 118, 0.3);	
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(124, 197, 118, 0.3);
 	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(124, 197, 118, 0.3);
 }
 
@@ -825,46 +825,46 @@ border: 2px solid #fff;
 
 /* Animation Timers
 ---------------------------------*/
-.delay-02s { 
-	animation-delay: 0.2s; 
-	-webkit-animation-delay: 0.2s; 
+.delay-02s {
+	animation-delay: 0.2s;
+	-webkit-animation-delay: 0.2s;
 }
-.delay-03s { 
-	animation-delay: 0.3s; 
-	-webkit-animation-delay: 0.3s; 
+.delay-03s {
+	animation-delay: 0.3s;
+	-webkit-animation-delay: 0.3s;
 }
-.delay-04s { 
-	animation-delay: 0.4s; 
-	-webkit-animation-delay: 0.4s; 
-}
-
-.delay-05s { 
-	animation-delay: 0.5s; 
-	-webkit-animation-delay: 0.5s; 
-}
-.delay-06s { 
-	animation-delay: 0.6s; 
-	-webkit-animation-delay: 0.6s; 
+.delay-04s {
+	animation-delay: 0.4s;
+	-webkit-animation-delay: 0.4s;
 }
 
-.delay-07s { 
-	animation-delay: 0.7s; 
-	-webkit-animation-delay: 0.7s; 
+.delay-05s {
+	animation-delay: 0.5s;
+	-webkit-animation-delay: 0.5s;
 }
-.delay-08s { 
-	animation-delay: 0.8s; 
-	-webkit-animation-delay: 0.8s; 
+.delay-06s {
+	animation-delay: 0.6s;
+	-webkit-animation-delay: 0.6s;
 }
 
-.delay-09s { 
-	animation-delay: 0.9s; 
-	-webkit-animation-delay: 0.9s; 
+.delay-07s {
+	animation-delay: 0.7s;
+	-webkit-animation-delay: 0.7s;
 }
-.delay-1s { 
-	animation-delay: 1s; 
-	-webkit-animation-delay: 1s; 
+.delay-08s {
+	animation-delay: 0.8s;
+	-webkit-animation-delay: 0.8s;
 }
-.delay-12s { 
-	animation-delay: 1.2s; 
-	-webkit-animation-delay: 1.2s; 
+
+.delay-09s {
+	animation-delay: 0.9s;
+	-webkit-animation-delay: 0.9s;
+}
+.delay-1s {
+	animation-delay: 1s;
+	-webkit-animation-delay: 1s;
+}
+.delay-12s {
+	animation-delay: 1.2s;
+	-webkit-animation-delay: 1.2s;
 }
