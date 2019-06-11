@@ -222,16 +222,16 @@ color: #c7af8b;
 
 .service-list{
 	padding:0 0 0 0;
-	font-size:14px;
+	font-size:18px;
 	margin-bottom:40px;
 }
 .service-list-col1{
-	float:left;
+	float:none;
 	width:60px;
 }
 .service-list-col1 i{
 	font-style:normal;
-	font-size:38px;
+	font-size:50px;
 	display:block;
 	color:#c79a56;
 	font-family: 'FontAwesome';
