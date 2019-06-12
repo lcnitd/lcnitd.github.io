@@ -61,6 +61,17 @@ body {
 	color:#c7af8b;
 	margin:0;
 }
+.button{
+  padding        : 10px 30px;
+    margin-bottom  : 0;
+    font-size      : 16px;
+    border-radius  : 0;
+    font-weight    : 500;
+    border-width   : 5px;
+    text-transform : uppercase;
+    background-color: #D2691E;
+    color: #000000;
+}
 h2{
 	font-size:34px;
 	color:#c7af8b;
