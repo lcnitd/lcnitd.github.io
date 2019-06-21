@@ -609,7 +609,7 @@ border: 2px solid #fff;
 }
 .team-leader ul li{
 	display:inline;
-	margin:0 11px;
+	margin:0 15px;
 }
 .team-leader ul li a{
 	font-family: 'FontAwesome';
@@ -634,6 +634,9 @@ border: 2px solid #fff;
 }
 .team-leader ul li a.fa-google-plus:hover{
 	color:#dd4b39;
+}
+.ndrow{
+   margin-left: 250px;
 }
 
 /* Tutorials */
