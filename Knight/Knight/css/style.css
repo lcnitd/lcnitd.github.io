@@ -22,6 +22,113 @@
   width: 0;
   height: 0;
 }
+.section-title2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.event {
+  position: relative;
+}
+.event+.event {
+  margin-top: 60px;
+}
+
+.event:after {
+  content: "";
+  position: absolute;
+  left: 60px;
+  top: 0px;
+  bottom: 0px;
+  width: 4px;
+  background-color: #c7af8b;
+}
+
+.event:last-child:after {
+  height: 60px;
+}
+
+.event+.event:before {
+  content: "";
+  position: absolute;
+  left: 60px;
+  height: 60px;
+  top: -60px;
+  width: 4px;
+  background-color: #c7af8b;
+}
+
+.event .event-day {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #c7af8b;
+  z-index: 10;
+}
+
+.event .event-hour {
+  position: absolute;
+  left: 62px;
+  top: 60px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #c7af8b;
+  z-index: 10;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.event .event-day>div {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.event .event-day .day {
+  display: block;
+  color: #FFF;
+  
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.event .event-day .year {
+  color: #FFF;
+  
+  font-size: 12px;
+}
+
+.event .event-content {
+  padding-left: 160px;
+  min-height: 120px;
+}
+
+.event .event-time {
+  font-size: 14px;
+}
+
+.event .event-time i {
+  color: #fff;
+}
+
+.event .event-content a {
+  color: #c7af8b;
+}
+
+.download-btn {
+  margin-top: 60px;
+  text-align: center;
+}
 
 .clearfix:before,
 .clearfix:after {
@@ -244,7 +351,7 @@ color: #c7af8b;
 	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
 	line-height:20px;
-	margin:17px 32px;
+	margin:10px 16px;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;
@@ -557,6 +664,21 @@ border: 2px solid #fff;
 	display:block;
 }
 .team-leader-box:nth-of-type(3n+0){ margin:0;}
+.team-leader-boxx{
+	width:30.66%;
+	margin-right: 3.82979%;
+	margin-left: 13.82979%;
+	height: 490px;
+	overflow: hidden;
+	text-align: center;
+	float: left;
+}
+.team-leader-boxx span{
+	margin-bottom:24px;
+	display:block;
+}
+
+
 .team-leader{
 	width:auto;
 	height:auto;
@@ -941,4 +1063,29 @@ border: 2px solid #fff;
 .delay-12s {
 	animation-delay: 1.2s;
 	-webkit-animation-delay: 1.2s;
+}
+
+@media only screen and (max-width: 767px) {
+  .event .event-day {
+    width: 90px;
+    height: 90px;
+  }
+  .event .event-content {
+    padding-left: 115px;
+  }
+  .event .event-day .day {
+    font-size: 25px;
+    line-height: 31px;
+  }
+  .event .event-hour {
+    left: 47px;
+  }
+  .event:after {
+    left: 45px;
+  }
+  .event+.event:before {
+    left: 45px;
+  }
+  .team-leader-boxx{ max-width:307px; width:auto; float:none; margin:0 auto;	}
+
 }
