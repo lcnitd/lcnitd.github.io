@@ -42,11 +42,11 @@
 	<header class="header" id="header">
 		<!--header-start-->
 		<div class="container">
-			<figure class="logo animated fadeInDown delay-07s">
-				<a href="#"><img src="img/logo.png" alt=""></a>
-			</figure>
 				<ul class="we-create animated fadeInUp delay-1s">
-				<li>The Literary Circle presents</li>
+		     <li>The Literary Circle presents</li> <br> <br> <br>
+				<figure class="logo animated fadeInDown delay-07s">
+					<a href="#"><img src="img/logo.png" alt=""></a>
+				</figure>
 			</ul>
 			<h1 class="animated fadeInDown delay-07s " style="font-size: 70px;">NITMUN 2019</h1>
 		<br><br><br>
@@ -877,6 +877,19 @@
 		 // $("#ytp iframe").attr('src', $("#ytp iframe", parent).attr('src') + '?autoplay=1');
 	 })
 	</script>
+ <script>
+	var i = 0;
+	var txt = 'The Literary Circle Presents:'; /* The text */
+	var speed = 50; /* The speed/duration of the effect in milliseconds */
+
+	function typeWriter() {
+	  if (i < txt.length) {
+	    document.getElementById("demo").innerHTML += txt.charAt(i);
+	    i++;
+	    setTimeout(typeWriter, speed);
+	  }
+	}
+ <script>
 
 </body>
 
