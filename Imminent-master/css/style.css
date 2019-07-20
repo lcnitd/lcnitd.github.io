@@ -565,7 +565,17 @@ h2 {
 	}
 
 }
-
+/* Logo */
+#logoLC
+{
+	float : left;
+	padding : 10px;
+}
+#logoMUN
+{
+	float :right;
+	padding : 10px;
+}
 @media all and (min-width: 900px) {
 	/* HERO */
 	h1 { font-size: 120px; line-height: 120px; }
