@@ -74,6 +74,20 @@ h2 {
 	color: #161a1b;
 }
 
+h3 {
+	font-size: 40px;
+	font-weight: 800;
+	line-height: 1em;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: #161a1b;
+  font-family: 'Lato', sans-serif;
+}
+
+
+
+
+
 #countdown div span {
 	display:block;
 	font-size: 50px;
@@ -92,7 +106,7 @@ h2 {
 	font-size: 40px;
 	margin-top: 5px;
 	margin-bottom: 0px;
-  color: #f04f4f; 
+  color: #f04f4f;
 }
 
 
