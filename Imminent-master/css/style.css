@@ -75,7 +75,7 @@ h2 {
 }
 
 h3 {
-	font-size: 40px;
+	font-size: 70px;
 	font-weight: 1000;
 	line-height: 1em;
 	letter-spacing: 0.2em;
@@ -344,11 +344,15 @@ h3 {
 {
 	float : left;
 	padding : 10px;
+  height: 1000%;
+  width: 1000%;
 }
 .logoMUN
 {
 	float : right;
 	padding : 10px;
+  height: 1000%;
+  width: 1000%;
 }
 
 
@@ -441,8 +445,8 @@ h3 {
   h2{font-size: 20px; line-height: 20px;}
 	#countdown div span {font-size: 24px; line-height: 34px;}
 	.sub-title { font-size: 25px; line-height: ; margin-top: 10px; }
-  .logoLC{width:80px; max-width: 100%; height: 30px; float:left; padding-left: 10px;}
-  .logoMUN{width:80px; max-width: 100%; height: 30px; float:right; padding-right: 10px;}
+  .logoLC{width:80px; max-width: 100%; height: 80px; float:left; padding-left: 10px;}
+  .logoMUN{width:80px; max-width: 100%; height: 80px; float:right; padding-right: 10px;}
 	/* TITLE & CONTACT */
 	.title { top: 15%;}
 	.contact .icons { margin-bottom: 0px; }
@@ -520,6 +524,7 @@ h3 {
 @media all and (min-width: 400px) {
 	/* HERO */
 	h1 { font-size: 40px; line-height: 40px; }
+  h3 { font-size: 35px; }
 	#countdown div span {font-size: 24px; line-height: 34px;}
 	.sub-title { font-size: 25px; line-height: ; margin-top: 10px; }
   .logoLC{width:80px; max-width: 100%; height: auto;}
@@ -964,6 +969,8 @@ h3 {
 	/* HERO */
 	h1 { font-size: 200px; line-height: 200px; }
 	.sub-title { font-size: 30px; line-height: 30px; margin-top: 30px; }
+  .logoLC{max-width: 200%; height:auto; width: 1000px; }
+  .logoMUN{max-width: 200%; height:auto; width:1000px; }
 	/* POSITIONING */
 	.depth-5 {
 		right: -10%;
