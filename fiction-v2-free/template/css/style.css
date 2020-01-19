@@ -1159,13 +1159,14 @@ hr.hr-border {
 
 .team-member img {
   width: 100%;
+  padding-bottom: 80px;
 }
 
 /* Team Overlay Style */
 .overlay {
   position: absolute;
-  /*top: 0;
-  left: 0;*/
+  top: 0;
+  left: 0;
   bottom:0;
   top: 0;
   width: 100%;
@@ -1175,6 +1176,7 @@ hr.hr-border {
   /*background: rgba(231, 190, 130, 0.9);*/
   transition: 0.4s;
 }
+
 
 /*.overlay .silly-pic {
   position: absolute;
@@ -1186,7 +1188,13 @@ hr.hr-border {
 }*/
 
 .overlay:hover {
-  opacity: 0.75;
+  opacity: 1.00;
+  margin-bottom: 3px;
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  margin: 10px;
+  font-weight: 500;
+  color: rgba(225, 74, 66, 0.8);
 }
 
 .overlay:hover .social-media, .overlay:hover .content {
@@ -1194,48 +1202,50 @@ hr.hr-border {
           transform: translateY(0);
 }
 
-.overlay .silly-pic {
+.overlay .silly-pic, .overlay .content {
   transition: 0.5s;
   overflow: hidden;
   -webkit-transform: translateY(0px);
           transform: translateY(0px);
 }
-/*
-.overlay .content h4 {
+
+
+.overlay:hover .content:hover h4 {
   margin-bottom: 3px;
+  position: absolute;
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
-  margin: 0;
+  margin: 10px;
   font-weight: 500;
-  color: rgba(18, 18, 18, 0.8);
-}*/
-/*
-.overlay .content span {
-  color: rgba(18, 18, 18, 0.8);
-}*/
+  color: rgba(225, 74, 66, 0.8);
+}
 
-/*.overlay .content p {
+.overlay .content span {
+  color: rgba(225, 74, 66, 0.8);
+}
+
+.overlay .silly-pic p {
   color: #121212;
   margin: 0;
   padding: 20px 0;
-}*/
+}
 
-/*.overlay .social-media {
+.overlay .silly-pic .social-media {
   transition: 0.8s;
   -webkit-transform: translateY(30px);
           transform: translateY(30px);
-}*/
+}
 
-/*.overlay .social-media li {
+.overlay  .social-media li {
   list-style: none;
   display: inline-block;
-  margin: 0 8px;
-}*/
+  margin: 30px 8px;
+}
 
-/*.overlay .social-media li a {
+.overlay .social-media li a {
   color: #121212;
   font-size: 22px;
-}*/
+}
 
 /* Join Team Button */
 .join-team {
