@@ -1189,21 +1189,23 @@ hr.hr-border {
 
 .overlay:hover {
   opacity: 1.00;
-  margin-bottom: 3px;
+  margin-bottom: 6px;
   position: absolute;
   font-family: "Poppins", sans-serif;
-  margin: 10px;
+  /*margin: 10px;*/
   font-weight: 500;
   color: rgba(225, 74, 66, 0.8);
+  'padding-left: 10px;
+  padding-right: 10px;
 }
 
-.overlay:hover .social-media, .overlay:hover .content {
+ .overlay:hover .content:hover {
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
 
-.overlay .silly-pic, .overlay .content {
-  transition: 0.5s;
+ .overlay .content {
+  transition: 1s;
   overflow: hidden;
   -webkit-transform: translateY(0px);
           transform: translateY(0px);
@@ -1220,31 +1222,40 @@ hr.hr-border {
   color: rgba(225, 74, 66, 0.8);
 }
 
-.overlay .content span {
+.overlay .content:hover span {
   color: rgba(225, 74, 66, 0.8);
 }
 
-.overlay .silly-pic p {
+/*.overlay .silly-pic p {
   color: #121212;
   margin: 0;
   padding: 20px 0;
-}
+} */
 
-.overlay .silly-pic .social-media {
-  transition: 0.8s;
+.overlay:hover .social-media {
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+.overlay:hover .social-media:hover {
+  transition: 1s;
   -webkit-transform: translateY(30px);
           transform: translateY(30px);
 }
 
-.overlay  .social-media li {
-  list-style: none;
+.overlay:hover  {
+  /*color: #121212;*/
   display: inline-block;
-  margin: 30px 8px;
+  font-size: 27px;
+
 }
 
-.overlay .social-media li a {
-  color: #121212;
-  font-size: 22px;
+.overlay:hover .social-media:hover  a {
+  color: #1dcaff;
+  display: inline-block;
+  font-size: 27px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /* Join Team Button */
