@@ -281,7 +281,7 @@ button:hover, button:focus {
   background: rgba(0, 0, 0, 0.73) none repeat scroll 0 0;
   margin-bottom: 0;
   border-bottom: 0;
-  padding: 30px 0;
+  padding: 20px 0;
   transition: .3s all;
 }
 
@@ -1148,18 +1148,21 @@ hr.hr-border {
  Team Style
 ***********************************************/
 .team {
-  padding: 65px 65px 80px;
+  padding: 65px 0 0;
   background: #0f0f0f;
   overflow-x: hidden;
 }
 
 .team-member {
   position: relative;
+  padding-bottom: 80px;
+  padding-top: 20px;
+  /*padding-left: 10px;
+  padding-right: 10px;*/
 }
 
 .team-member img {
   width: 100%;
-  padding-bottom: 80px;
 }
 
 /* Team Overlay Style */
@@ -1167,95 +1170,74 @@ hr.hr-border {
   position: absolute;
   top: 0;
   left: 0;
-  bottom:0;
-  top: 0;
   width: 100%;
   height: 100%;
+  bottom: 30px;
   /*padding: 75px 23px;*/
   opacity: 0;
   /*background: rgba(231, 190, 130, 0.9);*/
   transition: 0.4s;
 }
 
-
-/*.overlay .silly-pic {
-  position: absolute;
-  bottom:0;
-  width: 100%;
-  height:100%;
-  transition: 0.4s;
-
-}*/
-
 .overlay:hover {
-  opacity: 1.00;
-  margin-bottom: 6px;
+  opacity: 1;
+  bottom: 30px;
   position: absolute;
+  background-color: #000000;
   font-family: "Poppins", sans-serif;
-  /*margin: 10px;*/
-  font-weight: 500;
-  color: rgba(225, 74, 66, 0.8);
-  'padding-left: 10px;
-  padding-right: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
- .overlay:hover .content:hover {
+.overlay:hover .social-media, .overlay:hover .content {
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
 
- .overlay .content {
-  transition: 1s;
+.overlay .content {
+  transition: 0.5s;
   overflow: hidden;
-  -webkit-transform: translateY(0px);
-          transform: translateY(0px);
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
 }
 
-
-.overlay:hover .content:hover h4 {
+.overlay .content h4 {
+  padding-top: 20px;
   margin-bottom: 3px;
-  position: absolute;
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
-  margin: 10px;
+  margin: 0;
   font-weight: 500;
-  color: rgba(225, 74, 66, 0.8);
+  color: rgba(255, 255, 255, 0.8);
 }
 
-.overlay .content:hover span {
-  color: rgba(225, 74, 66, 0.8);
+.overlay .content span {
+  color: rgba(255, 255, 255, 0.8);
 }
 
-/*.overlay .silly-pic p {
+.overlay .content p {
   color: #121212;
   margin: 0;
   padding: 20px 0;
-} */
-
-.overlay:hover .social-media {
-  padding-left: 10px;
-  padding-right: 10px;
-
 }
-.overlay:hover .social-media:hover {
-  transition: 1s;
+
+.overlay .social-media {
+  padding-bottom: 15px;
+  padding-top: 7px;
+  transition: 0.8s;
   -webkit-transform: translateY(30px);
           transform: translateY(30px);
 }
 
-.overlay:hover  {
-  /*color: #121212;*/
+.overlay .social-media li {
+  list-style: none;
   display: inline-block;
-  font-size: 27px;
-
+  margin: 0 8px;
 }
 
-.overlay:hover .social-media:hover  a {
-  color: #1dcaff;
-  display: inline-block;
-  font-size: 27px;
-  padding-left: 10px;
-  padding-right: 10px;
+.overlay .social-media li a {
+  color: #ffffff;
+  font-size: 22px;
 }
 
 /* Join Team Button */
@@ -2321,6 +2303,12 @@ form .padding-left-15 {
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
   }
+  .content h4{
+    font-size: 20px;
+  }
+  .content span{
+    font-size: 10px;
+  }
   /* contact-us */
   .contact-us {
     text-align: center;
@@ -2507,6 +2495,14 @@ form .padding-left-15 {
     width: 100%;
   }
 }
+/* Team Sections
+================ */
+.content h4{
+  font-size: 20px;
+}
+.content span{
+  font-size: 10px;
+}
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 320px) and (max-width: 768px) {
@@ -2524,6 +2520,15 @@ form .padding-left-15 {
   .contact-content {
     padding: 4%;
   }
+  /* Team Sections
+  ================ */
+  .content h4{
+    font-size: 20px;
+  }
+  .content span{
+    font-size: 10px;
+  }
+
   /* case study section */
   .case-study-content img {
     float: none;
