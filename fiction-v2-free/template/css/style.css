@@ -2304,10 +2304,10 @@ form .padding-left-15 {
             transform: translateY(-50%);
   }
   .content h4{
-    font-size: 20px;
+    font-size: 1vh;
   }
   .content span{
-    font-size: 10px;
+    font-size: 1vh;
   }
   /* contact-us */
   .contact-us {
@@ -2498,10 +2498,10 @@ form .padding-left-15 {
 /* Team Sections
 ================ */
 .content h4{
-  font-size: 20px;
+  font-size: 2vh;
 }
 .content span{
-  font-size: 10px;
+  font-size: 1.5vh;
 }
 
 /* Extra Small Devices, Phones */
@@ -2523,10 +2523,10 @@ form .padding-left-15 {
   /* Team Sections
   ================ */
   .content h4{
-    font-size: 20px;
+    font-size: 1vh;
   }
   .content span{
-    font-size: 10px;
+    font-size: 1vh;
   }
 
   /* case study section */
