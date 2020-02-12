@@ -19,9 +19,9 @@ body {
 }
 
 /* Heading Fonts Size */
-h1, h2, h3 {
+ h2, h3 {
   font-family: "Playfair Display", serif;
-  color: #facd8a;
+  color: #c4dfeg;
 }
 
 h1, h2 {
@@ -33,7 +33,9 @@ h4 {
 }
 
 h1 {
+  font-family: "Playfair Display", serif;
   font-size: 65px;
+  color: #c4dfeg;
 }
 
 h2 {
@@ -278,7 +280,7 @@ button:hover, button:focus {
  */
 /*logo style*/
 .navigation {
-  background: rgba(0, 0, 0, 0.73) none repeat scroll 0 0;
+  background: rgba(0, 59, 70, 0.75) none repeat scroll 0 0;
   margin-bottom: 0;
   border-bottom: 0;
   padding: 20px 0;
@@ -290,7 +292,7 @@ button:hover, button:focus {
 }
 
 .sticky-header {
-  background: rgba(0, 0, 0, 0.73);
+  background: rgba(0, 59, 70, 0.73);
 }
 
 .menu li a {
@@ -599,7 +601,7 @@ div.loading {
  */
 .footer {
   padding: 65px 0 40px;
-  background: #111111;
+  background: rgba(33, 180, 171, 0.75);
   font-size: 16px;
   line-height: 29px;
   color: rgba(255, 255, 255, 0.8);
@@ -771,7 +773,7 @@ div.loading {
 
 .clients-logo .block {
   padding: 40px 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(102, 165, 173, 0.7);
   transition: 0.5s;
   height: 200px;
 }
@@ -1149,7 +1151,7 @@ hr.hr-border {
 ***********************************************/
 .team {
   padding: 65px 0 0;
-  background: #0f0f0f;
+  background: rgba(33, 180, 171, 0.75);
   overflow-x: hidden;
 }
 
@@ -1157,6 +1159,7 @@ hr.hr-border {
   position: relative;
   padding-bottom: 80px;
   padding-top: 20px;
+/*  background: rgba(0, 59, 70, 0.9);*/
   /*padding-left: 10px;
   padding-right: 10px;*/
 }
@@ -1175,7 +1178,7 @@ hr.hr-border {
   bottom: 30px;
   /*padding: 75px 23px;*/
   opacity: 0;
-  /*background: rgba(231, 190, 130, 0.9);*/
+  background: rgba(0, 59, 70, 0.9);
   transition: 0.4s;
 }
 
@@ -1183,7 +1186,7 @@ hr.hr-border {
   opacity: 1;
   bottom: 30px;
   position: absolute;
-  background-color: #000000;
+  background-color: #003b46;
   font-family: "Poppins", sans-serif;
   padding-right: 5px;
   padding-left: 5px;
@@ -1360,7 +1363,7 @@ hr.hr-border {
 }
 
 .slider-main {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 59, 70, 0.8);
 }
 
 .title {
