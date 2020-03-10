@@ -81,6 +81,15 @@ Primary use:
   line-height: 1;
   text-transform: uppercase;
 }
+.s1-txt2{
+  font-family: Poppins-Bold;
+  font-size: 90px;
+  background: -webkit-linear-gradient(#16a1b4 , #30cc8d);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+  line-height: 1;
+  text-transform: uppercase;
+}
 
 
 
